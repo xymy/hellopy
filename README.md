@@ -8,7 +8,7 @@
 
     pip3 install -U setuptools wheel
 
-### 2. Download the source code
+### 2. Download source code
 
     git clone https://github.com/xymy/hellopy.git
 
@@ -21,3 +21,7 @@
 
     cd dist
     pip3 install hellopy-1.0-py3-none-any.whl
+
+## Uninstallation
+
+    pip3 uninstall hellopy
