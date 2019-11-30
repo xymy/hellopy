@@ -19,6 +19,7 @@ setup(
     description='Hello, Python!',
     long_description=readme,
     long_description_content_type='text/markdown',
+    url='https://github.com/xymy/hellopy',
     author='xymy',
     author_email='thyfan@163.com',
     classifiers=classifiers,
