@@ -25,3 +25,10 @@
 ## Uninstallation
 
     pip3 uninstall hellopy
+
+## Usage
+
+Type `hellopy` at your terminal, and `Hello, Python!` will be printed.
+
+    $ hellopy
+    Hello, Python!
