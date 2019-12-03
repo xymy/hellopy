@@ -20,7 +20,7 @@
 ### 4. Install wheel
 
     cd dist
-    pip3 install hellopy-1.0-py3-none-any.whl
+    pip3 install hellopy-2.0-py3-none-any.whl
 
 ## Uninstallation
 
