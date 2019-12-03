@@ -30,5 +30,9 @@ setup(
             'hellopy = hellopy.hellopy:main'
         ]
     },
+    install_requires=[
+        'click>=7.0',
+        'colorama>=0.4.0; sys_platform == "win32"'
+    ],
     python_requires='>=3.6'
 )
