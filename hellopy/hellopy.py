@@ -6,11 +6,11 @@ from click.termui import _ansi_colors
 colors = list(_ansi_colors)
 
 
-def plain(message):
+def print_plain(message):
     click.echo(message)
 
 
-def colorful(message):
+def print_colorful(message):
     for c in message:
         fg = random.choice(colors)
         bg = random.choice(colors)
@@ -18,10 +18,15 @@ def colorful(message):
     click.echo()
 
 
-def main():
+@click.command()
+@click.option('-p', '--plain', is_flag=True)
+def main(plain):
     message = 'Hello, Python!'
-    colorful(message)
+    if plain:
+        print_plain(message)
+    else:
+        print_colorful(message)
 
 
 if __name__ == '__main__':
-    main()
+    main()  # pylint: disable=no-value-for-parameter
