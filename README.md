@@ -6,7 +6,7 @@
 
 ### 1. Install dependencies
 
-    pip3 install -U setuptools wheel
+    pip install -U setuptools wheel
 
 ### 2. Download source code
 
@@ -15,16 +15,16 @@
 ### 3. Build wheel
 
     cd hellopy
-    python3 setup.py build bdist_wheel
+    python setup.py build bdist_wheel
 
 ### 4. Install wheel
 
     cd dist
-    pip3 install hellopy-2.0-py3-none-any.whl
+    pip install hellopy-2.0-py3-none-any.whl
 
 ## Uninstallation
 
-    pip3 uninstall hellopy
+    pip uninstall hellopy
 
 ## Usage
 
